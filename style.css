@@ -1,0 +1,80 @@
+.user {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #dddddd;
+  border-radius: 5px solid #dddd;
+  box-shadow: 5px 5px 5px;
+  width: 150px;
+  padding: 15px;
+  box-sizing: border-box;
+  float: left;
+  margin-right: 20px;
+}
+.user__img {
+  width: 100%;
+  display: block;
+  border-radius: 50%;
+  box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.35);
+}
+.user__name {
+  font-weight: bold;
+  padding: 10px;
+  font-size: 1.2em;
+}
+.button {
+  padding: 0.5em 0.8em;
+  background-color: cornflowerblue;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  color: #fff;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: #273c75;
+}
+
+/* next card */
+.user1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #dddddd;
+  border-radius: 5px solid #dddd;
+  background-color: #353b48;
+  box-shadow: 5px 5px 5px;
+  width: 150px;
+  padding: 15px;
+  box-sizing: border-box;
+  float: left;
+  margin-right: 20px;
+}
+.user1__img {
+  width: 100%;
+  display: block;
+  border-radius: 50%;
+  box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.35);
+}
+.user1__name {
+  font-weight: bold;
+  padding: 10px;
+  font-size: 1.2em;
+  color: #ffff;
+}
+.button1 {
+  padding: 0.5em 0.8em;
+  background-color: cornflowerblue;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  color: #fff;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.button1:hover {
+  background-color: #273c75;
+}
