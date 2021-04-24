@@ -1,0 +1,76 @@
+$primaryColor: #272727;
+$accentColor: #ff652f;
+$textColor: #fff;
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: $primaryColor;
+}
+
+.main {
+    margin: .2em 10em;
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    justify-content: center;
+    align-items: center;
+    color: #ffff;
+    height: 100vh;
+
+    &__first__block {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-right: 70px;
+    }
+
+    &__btn {
+        border: none;
+        outline: none;
+        padding: .4em 3em;
+        margin-top: 1em;
+        background-color: bisque;
+        color: #444;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    &__second__block {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__btn1 {
+        border: none;
+        outline: none;
+        padding: .4em 3em;
+        margin-top: 1em;
+        background-color: bisque;
+        color: #444;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+}
+
+.section {
+    height: 100vh;
+    width: 100%;
+    background-color: red;
+
+    &__main {
+        position: relative;
+    }
+}
